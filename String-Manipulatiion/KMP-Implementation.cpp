@@ -26,16 +26,16 @@ vector<int> KMP(string pattern)
     return v;
 }
 
-//Driver Function
-int main(){
-    string pattern;
-    cin>>pattern;
+// //Driver Function
+// int main(){
+//     string pattern;
+//     cin>>pattern;
 
-    vector<int> pi = KMP(pattern);
+//     vector<int> pi = KMP(pattern);
     
-    for(auto itr : pi)
-    {
-        cout<<itr<<endl;
-    }
-    return 0;
-}
+//     for(auto itr : pi)
+//     {
+//         cout<<itr<<endl;
+//     }
+//     return 0;
+// }
